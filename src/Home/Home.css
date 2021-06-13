@@ -1,0 +1,327 @@
+.wholeHome {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.infoBar {
+  margin-left: 380px;
+  position: absolute;
+  display: none;
+  margin-top: 85px;
+  color: #152628;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  width: 1540px;
+  height: 30px;
+}
+.actualCards {
+  margin-top: 40px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 513px 513px 513px;
+  grid-template-rows: auto;
+  gap: 50px 5px;
+}
+.cardsHome {
+  width: 1540px;
+  height: 864px;
+  display: inline-block;
+  background-color: rgb(75, 106, 75, 0.3);
+  position: absolute;
+  margin-top: 111px;
+}
+.homeMadeToggle {
+  display: inline-block;
+  margin-left: 50px;
+  color: #182628;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.togglePicGrid {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("list.png");
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  margin-left: 27px;
+}
+.togglePicList {
+  display: none;
+  width: 16px;
+  height: 16px;
+  background-image: url("grid.png");
+  margin-top: 12px;
+  margin-left: 27px;
+}
+.viewTag {
+  display: inline-block;
+}
+.toggleButton {
+  top: 50%;
+  transform: translate(10%, 25%);
+  display: inline-block;
+  border-radius: 10px;
+  width: 70px;
+  height: 40px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.topOfHome {
+  width: 1540px;
+  background-color: rgb(75, 106, 75, 0.3);
+  display: inline-block;
+  position: absolute;
+  height: 110px;
+  border-bottom: solid;
+  border-color: #182628;
+  border-width: 2px;
+}
+.dropDown {
+  border-radius: 10px;
+  height: 40px;
+  width: 160px;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-left: 5px;
+  color: #182628;
+  border: none;
+  font-weight: normal;
+  outline: none;
+}
+
+.sortByDiv {
+  display: inline-block;
+  margin-left: 270px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.searchBar {
+  display: inline-block;
+  width: 774px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 22px;
+  border: none;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #182628;
+  color: #182628;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"] {
+  background-color: #f2f2f2;
+}
+.searchBar::placeholder {
+  color: #182628;
+  font-size: 25px;
+}
+.leftArea {
+  height: 100vh;
+  width: 380px;
+  display: inline-block;
+  background-color: #182628;
+}
+.webTitle {
+  height: 110px;
+  background-color: #182628;
+  width: 380px;
+  border-bottom: solid;
+  border-color: #f2f2f2;
+  border-width: 2px;
+  cursor: pointer;
+}
+.logo {
+  margin: 0;
+  margin-left: 26px;
+  margin-top: 30px;
+  display: inline-block;
+  background-image: url(./logo.png);
+  width: 70px;
+  height: 55px;
+}
+.webName {
+  font-size: 65px;
+  margin-left: 10px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+}
+.clickAddCard {
+  height: 110px;
+  background-color: #182628;
+  width: 380px;
+}
+.addPic {
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 30px;
+  display: inline-block;
+  background-image: url(./addPicWhite.png);
+  width: 40px;
+  background-size: 100% 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.addCardName {
+  font-size: 35px;
+  font-weight: lighter;
+  margin-left: 20px;
+  display: inline-block;
+  top: 50%;
+  transform: translate(10%, -20%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.clickViewCard {
+  height: 110px;
+  background-color: #182628;
+  width: 380px;
+}
+.viewCardPic {
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 40px;
+  display: inline-block;
+  background-image: url(./viewCardWhite.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  background-size: 100% 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.viewCardName {
+  font-size: 35px;
+  font-weight: lighter;
+  margin-left: 10px;
+  display: inline-block;
+  top: 50%;
+  transform: translate(10%, -10%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.notifTitle {
+  color: #182628;
+  display: inline-block;
+}
+.notiClick {
+  height: 110px;
+  background-color: #182628;
+  width: 380px;
+}
+.notifExit {
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+  background-image: url("./clear.png");
+  width: 50px;
+  height: 50px;
+}
+.notiPic {
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  background-image: url(./notiWhite.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  background-size: 100% 100%;
+  height: 40px;
+  cursor: pointer;
+  padding: 0;
+}
+.notifTopBar {
+  border-bottom: solid;
+  border-color: #182628;
+  border-width: 2px;
+}
+.redDot {
+  width: 20px;
+  height: 20px;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./redDot.png");
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: 25px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.notiName {
+  font-size: 35px;
+  font-weight: lighter;
+  margin-left: 15px;
+  display: inline-block;
+  top: 50%;
+  transform: translate(10%, -20%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.clickStats {
+  height: 110px;
+  background-color: #182628;
+  width: 380px;
+}
+.statsPic {
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  background-image: url(./statsWhite.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  background-size: 100% 100%;
+  height: 40px;
+  cursor: pointer;
+  padding: 0;
+}
+.statsName {
+  font-size: 35px;
+  font-weight: lighter;
+  margin-left: 20px;
+  display: inline-block;
+  top: 50%;
+  transform: translate(10%, -20%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.signOut {
+  position: absolute;
+  bottom: 0;
+  height: 110px;
+  background-color: #182628;
+  width: 380px;
+  padding: 0;
+}
+.signOutPic {
+  margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  background-image: url(./signOut.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  padding: 0;
+}
+.signName {
+  font-size: 35px;
+  font-weight: lighter;
+  margin-left: 20px;
+  display: inline-block;
+  top: 50%;
+  transform: translate(10%, -20%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  cursor: pointer;
+}
